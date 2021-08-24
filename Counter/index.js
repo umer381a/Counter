@@ -5,6 +5,7 @@ function onClick() {
   document.getElementById("clicks").innerHTML = clicks;
 };
 
-function resetCounter() {
-    document.getElementById("clicks").innerHTML = "0";
+var resetCounter= function() {
+    clicks = 0;
+    document.getElementById("clicks").innerHTML = "clicks";
   };
