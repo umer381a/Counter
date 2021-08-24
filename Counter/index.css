@@ -1,0 +1,19 @@
+body{
+    margin-top: 40vh;
+    margin-left: 40vw;
+}
+button{
+    font-size: xxx-large;
+}
+#clicks{
+    font-size: 50px;
+    border: solid 2px;
+    width:325px;
+    text-align: center;
+    background-color: seashell;
+}
+div{
+    border: solid 2px;
+    background-color: seagreen;
+    width: 335px;
+}
