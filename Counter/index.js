@@ -1,11 +1,11 @@
 var clicks = 0;
-
+var c = document.getElementById("clicks");
 function onClick() {
   clicks += 1;
-  document.getElementById("clicks").innerHTML = clicks;
+  c.innerHTML = clicks;
 };
 
 var resetCounter= function() {
     clicks = 0;
-    document.getElementById("clicks").innerHTML = "clicks";
+    c.innerHTML = "clicks";
   };
